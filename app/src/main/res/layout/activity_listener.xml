@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListenerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/listener_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:hint="@string/Linstener_tv_hint"
+
+            />
+        <Button
+            android:id="@+id/listener_btn_inner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Listener_btn_inner"
+            />
+        <Button
+            android:id="@+id/listener_btn_outer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Listener_btn_outer"
+            />
+        <Button
+            android:id="@+id/listener_btn_inner_anonymous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Listener_btn_inner_anonymous"
+            />
+        <Button
+            android:id="@+id/listener_btn_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Listener_btn_activity"
+            />
+        <Button
+            android:id="@+id/listener_btn_bind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Listener_btn_bind"
+            android:onClick="clickHandler"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
