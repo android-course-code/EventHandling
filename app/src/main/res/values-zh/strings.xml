@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">事件处理</string>
+    <string name="Linstener_tv_hint">未绑定</string>
+    <string name="Listener_btn_inner">内部类</string>
+    <string name="Listener_btn_activity">Activity</string>
+    <string name="Listener_btn_outer">外部类</string>
+    <string name="Listener_btn_inner_anonymous">匿名内部类</string>
+    <string name="Listener_btn_bind">绑定到标签</string>
+    <string name="Listener_name">基于监听</string>
+</resources>

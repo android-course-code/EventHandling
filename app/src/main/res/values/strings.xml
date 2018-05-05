@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Event Handling</string>
+    <string name="Linstener_tv_hint">Unattached</string>
+    <string name="Listener_btn_inner">Inner Class</string>
+    <string name="Listener_btn_outer">Outter Class</string>
+    <string name="Listener_btn_inner_anonymous">Inner Anonymous</string>
+    <string name="Listener_btn_activity">Activity</string>
+    <string name="Listener_btn_bind">Bind to lable</string>
+    <string name="Listener_name">Listener</string>
+</resources>
