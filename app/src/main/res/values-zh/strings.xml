@@ -8,4 +8,6 @@
     <string name="Listener_btn_inner_anonymous">匿名内部类</string>
     <string name="Listener_btn_bind">绑定到标签</string>
     <string name="Listener_name">基于监听</string>
+    <string name="Callback_name">基于回调</string>
+    <string name="ButtonX_text">请点击我</string>
 </resources>

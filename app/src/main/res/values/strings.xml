@@ -7,4 +7,6 @@
     <string name="Listener_btn_activity">Activity</string>
     <string name="Listener_btn_bind">Bind to lable</string>
     <string name="Listener_name">Listener</string>
+    <string name="Callback_name">Callback</string>
+    <string name="ButtonX_text">Click Me!</string>
 </resources>

@@ -18,6 +18,12 @@
         android:text="@string/Listener_name"
         android:onClick="ToListener"
         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Callback_name"
+        android:onClick="ToCallback"
+        />
 
 </LinearLayout>
 

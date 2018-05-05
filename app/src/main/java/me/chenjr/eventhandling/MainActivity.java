@@ -18,4 +18,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this,ListenerActivity.class));
     }
 
+    public void ToCallback(View view) {
+        startActivity(new Intent(this,CallbackActivity.class));
+    }
 }
