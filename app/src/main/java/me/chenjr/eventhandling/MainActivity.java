@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
     public void ToCallback(View view) {
         startActivity(new Intent(this,CallbackActivity.class));
     }
+
+    public void ToGetConfiguration(View view) {
+        startActivity(new Intent(this,GetConfigurationActivity.class));
+    }
 }

@@ -10,4 +10,17 @@
     <string name="Listener_name">基于监听</string>
     <string name="Callback_name">基于回调</string>
     <string name="ButtonX_text">请点击我</string>
+    <string name="Getconfiguration_name">配置获取</string>
+    <string name="GC_edit_text_hint_ori">屏幕方向</string>
+    <string name="GC_edit_text_hint_nav">方向控制设备</string>
+    <string name="GC_edit_text_hint_touch">触摸屏类型</string>
+    <string name="GC_edit_text_hint_mnc">MNC 代码</string>
+    <string name="GC_lable_landscape">横向屏幕</string>
+    <string name="GC_lable_portrait">纵向屏幕</string>
+    <string name="GC_lable_nonav">没有方向控制</string>
+    <string name="GC_lable_wheel">滚轮控制方向</string>
+    <string name="GC_lable_notouch">无触摸屏</string>
+    <string name="GC_lable_touch">支持触摸屏</string>
+    <string name="GC_lable_dpad">方向键控制</string>
+    <string name="GC_lable_trackball">轨迹球控制</string>
 </resources>

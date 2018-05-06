@@ -9,4 +9,17 @@
     <string name="Listener_name">Listener</string>
     <string name="Callback_name">Callback</string>
     <string name="ButtonX_text">Click Me!</string>
+    <string name="Getconfiguration_name">Get Configuration</string>
+    <string name="GC_edit_text_hint_ori">Orientation</string>
+    <string name="GC_edit_text_hint_nav">Navigation</string>
+    <string name="GC_edit_text_hint_touch">Touch Screen Type</string>
+    <string name="GC_edit_text_hint_mnc">MNC Code</string>
+    <string name="GC_lable_landscape">Landscape</string>
+    <string name="GC_lable_portrait">Portrait</string>
+    <string name="GC_lable_nonav">No Navigation Contral</string>
+    <string name="GC_lable_wheel">Wheel Navigation</string>
+    <string name="GC_lable_notouch">No touch screen</string>
+    <string name="GC_lable_touch">Touch Screen</string>
+    <string name="GC_lable_dpad">DPAD</string>
+    <string name="GC_lable_trackball">Track Ball</string>
 </resources>

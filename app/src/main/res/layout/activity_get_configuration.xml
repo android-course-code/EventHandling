@@ -6,4 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".GetConfigurationActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/gc_edit_ori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="@string/GC_edit_text_hint_ori"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/gc_edit_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="@string/GC_edit_text_hint_nav"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/gc_edit_touch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="@string/GC_edit_text_hint_touch"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/gc_edit_mnc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="@string/GC_edit_text_hint_mnc"
+            android:textSize="18sp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="getConfig"
+            android:text="@string/Getconfiguration_name"
+            />
+
+    </LinearLayout>
+
+
 </android.support.constraint.ConstraintLayout>

@@ -23,9 +23,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CallbackActivity"
-            android:label="@string/Callback_name"
-            >
+        <activity
+            android:name=".CallbackActivity"
+            android:label="@string/Callback_name">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GetConfigurationActivity"
+
+            android:label="@string/Getconfiguration_name">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
