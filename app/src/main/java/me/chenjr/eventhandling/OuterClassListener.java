@@ -5,14 +5,14 @@ import android.widget.EditText;
 
 /*外部监听器*/
 public class OuterClassListener implements View.OnClickListener {
-    EditText show;
+    private EditText edit_text;
 
     public OuterClassListener(EditText text) {
-        show= text;
+        edit_text = text;
     }
 
     @Override
     public void onClick(View view) {
-        show.setText(R.string.Listener_btn_outer);
+        edit_text.setText(R.string.Listener_btn_outer);
     }
 }
