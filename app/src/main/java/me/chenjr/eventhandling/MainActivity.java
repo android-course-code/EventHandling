@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    /*四个按键的回调方法,用于跳转到四个activity*/
     public void ToListener(View view) {
         startActivity(new Intent(this,ListenerActivity.class));
     }
@@ -24,5 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void ToGetConfiguration(View view) {
         startActivity(new Intent(this,GetConfigurationActivity.class));
+    }
+
+    public void ToHandlerTest(View view) {
+        startActivity(new Intent(this,HandlerTestActivity.class));
     }
 }

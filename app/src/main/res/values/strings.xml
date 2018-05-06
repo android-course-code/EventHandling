@@ -22,4 +22,8 @@
     <string name="GC_lable_touch">Touch Screen</string>
     <string name="GC_lable_dpad">DPAD</string>
     <string name="GC_lable_trackball">Track Ball</string>
+    <string name="Handler_test_name">Handler Test</string>
+    <string name="Handler_test_btn_lable">Do Task</string>
+    <string name="Handler_test_pd_title">Progressing…</string>
+    <string name="Handler_test_pd_message">Percentage of task completion</string>
 </resources>

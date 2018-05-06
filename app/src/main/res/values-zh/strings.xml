@@ -23,4 +23,9 @@
     <string name="GC_lable_touch">支持触摸屏</string>
     <string name="GC_lable_dpad">方向键控制</string>
     <string name="GC_lable_trackball">轨迹球控制</string>
+    <string name="Handler_test_name">Handler测试</string>
+    <string name="Handler_test_btn_lable">执行任务</string>
+    <string name="Handler_test_pd_title">任务执行中…</string>
+    <string name="Handler_test_pd_message">任务完成百分比</string>
+
 </resources>

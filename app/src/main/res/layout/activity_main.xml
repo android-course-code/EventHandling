@@ -29,6 +29,11 @@
         android:layout_height="wrap_content"
         android:text="@string/Getconfiguration_name"
         android:onClick="ToGetConfiguration"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Handler_test_name"
+        android:onClick="ToHandlerTest"/>
 
 </LinearLayout>
 

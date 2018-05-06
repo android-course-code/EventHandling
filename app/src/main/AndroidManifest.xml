@@ -30,9 +30,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GetConfigurationActivity"
-
+        <activity
+            android:name=".GetConfigurationActivity"
             android:label="@string/Getconfiguration_name">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HandlerTestActivity"
+            android:label="@string/Handler_test_name">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

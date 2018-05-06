@@ -1,14 +1,27 @@
 apply plugin: 'com.android.application'
 
-android {
+def KeysFile = file("../key.porperties")
+Properties keydef = new Properties()
+KeysFile.withInputStream { stream ->
+    keydef.load(stream)
+}
 
+android {
+    signingConfigs {
+        config {
+            keyAlias keydef.keyAlias
+            keyPassword keydef.keyPassword
+            storeFile file(keydef.storeFile)
+            storePassword keydef.storePassword
+        }
+    }
     compileSdkVersion 26
     defaultConfig {
         applicationId "me.chenjr.eventhandling"
         minSdkVersion 17
         targetSdkVersion 26
-        versionCode 3
-        versionName '0.3.0'
+        versionCode 4
+        versionName '0.4.0'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         versionNameSuffix 'beta'
     }
@@ -16,9 +29,11 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
+            signingConfig signingConfigs.config
         }
-
+        debug {
+            signingConfig signingConfigs.config
+        }
     }
     productFlavors {
     }
